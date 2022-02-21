@@ -8,11 +8,11 @@ namespace Anagrams.Screen_Entities
     {
         // Title
         private static readonly Text TitleText = new Text(Anagrams.WindowWidth / 2, Anagrams.WindowHeight / 2 - 158, Anagrams.Inter_76pt, "Anagrams");
-        
+
         // Buttons
-        private static readonly Button PlayButton = new Button(Anagrams.WindowWidth/2, Anagrams.WindowHeight/2 - 16, Sprites.TitleButton, Anagrams.Inter_24pt, "Play", ToWordChoiceScreen);
-        private static readonly Button RulesButton = new Button(Anagrams.WindowWidth/2, Anagrams.WindowHeight/2 + 64, Sprites.TitleButton, Anagrams.Inter_24pt, "Rules", ToRulesScreen);
-        private static readonly Button OptionsButton = new Button(Anagrams.WindowWidth/2, Anagrams.WindowHeight/2 + 144, Sprites.TitleButton, Anagrams.Inter_24pt, "Options", ToOptionsScreen);
+        private static readonly Button PlayButton = new Button(Anagrams.WindowWidth / 2, Anagrams.WindowHeight / 2 - 16, Sprites.TitleButton, Anagrams.Inter_24pt, "Play", ToWordChoiceScreen);
+        private static readonly Button RulesButton = new Button(Anagrams.WindowWidth / 2, Anagrams.WindowHeight / 2 + 64, Sprites.TitleButton, Anagrams.Inter_24pt, "Rules", ToRulesScreen);
+        private static readonly Button OptionsButton = new Button(Anagrams.WindowWidth / 2, Anagrams.WindowHeight / 2 + 144, Sprites.TitleButton, Anagrams.Inter_24pt, "Options", ToOptionsScreen);
 
         // Button functions
         private static void ToWordChoiceScreen()

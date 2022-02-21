@@ -8,7 +8,7 @@ namespace Anagrams.Graphics
     {
         // Properties
         public Entity[] Entities;
-        
+
         // Constructor
         public Screen(Entity[] entities)
         {

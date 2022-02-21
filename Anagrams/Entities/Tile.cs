@@ -7,12 +7,12 @@ namespace Anagrams.Entities
     {
         public override void Update(MouseState mouseState)
         {
-            
+
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            
+
         }
     }
 }

@@ -10,10 +10,10 @@ namespace Anagrams
         // Setup
         private static GraphicsDeviceManager GraphicsManager;
         private static SpriteBatch SpriteBatch;
-        
+
         // Spritesheet
         public static Texture2D Spritesheet;
-        
+
         // Fonts
         public static SpriteFont Inter_76pt;
         public static SpriteFont Inter_28pt;
@@ -55,20 +55,20 @@ namespace Anagrams
             Inter_24pt = Content.Load<SpriteFont>("Inter_24pt");
             Inter_22pt = Content.Load<SpriteFont>("Inter_22pt");
         }
-        
+
         // Update
         protected override void Update(GameTime gameTime)
         {
             // Get mouse state
             MouseState MouseState = Mouse.GetState();
-            
+
             // Update current screen
             if (CurrentScreen == null)
             {
                 CurrentScreen = Screens.Title;
             }
             CurrentScreen.Update(MouseState);
-            
+
             base.Update(gameTime);
         }
 
@@ -77,12 +77,12 @@ namespace Anagrams
         {
             // Draw background
             GraphicsDevice.Clear(CurrentTheme.Background);
-            
+
             // Begin sprite batch
             SpriteBatch.Begin();
-            
+
             CurrentScreen.Draw(SpriteBatch);
-            
+
             SpriteBatch.End();
 
             base.Draw(gameTime);

@@ -72,7 +72,7 @@ namespace Anagrams.Entities
         public override void Draw(SpriteBatch spriteBatch)
         {
             Sprite sprite;
-            
+
             if (!Updated)
             {
                 TextWidth = Font.MeasureString(Text).X;
@@ -84,10 +84,10 @@ namespace Anagrams.Entities
                 sprite = Sprites[1];
             else
                 sprite = Sprites[0];
-            
-            sprite.Draw(spriteBatch, X - sprite.Width/2, Y - sprite.Height/2);
+
+            sprite.Draw(spriteBatch, X - sprite.Width / 2, Y - sprite.Height / 2);
             if (Font != null)
-                spriteBatch.DrawString(Font, Text, new Vector2(X - TextWidth/2, Y - TextHeight/2), Anagrams.CurrentTheme.Background);
+                spriteBatch.DrawString(Font, Text, new Vector2(X - TextWidth / 2, Y - TextHeight / 2), Anagrams.CurrentTheme.Background);
         }
     }
 }

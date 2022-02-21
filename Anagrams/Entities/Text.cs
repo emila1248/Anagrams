@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Anagrams.Entities
 {
-    class Text : Entity
+    public class Text : Entity
     {
         // Properties
         public SpriteFont Font { get; set; }

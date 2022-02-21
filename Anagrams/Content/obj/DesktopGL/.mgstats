@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/Inter_22pt.spritefont","C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/bin/DesktopGL/Inter_22pt.xnb","FontDescriptionProcessor","SpriteFontContent",2076,70690,0.6718518
+"C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/Inter_24pt.spritefont","C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/bin/DesktopGL/Inter_24pt.xnb","FontDescriptionProcessor","SpriteFontContent",2076,70690,0.0290263
+"C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/Inter_28pt.spritefont","C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/bin/DesktopGL/Inter_28pt.xnb","FontDescriptionProcessor","SpriteFontContent",2076,70690,0.0197703
+"C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/Spritesheet.png","C:/Users/emila/Downloads/Projects/Anagrams/Anagrams/Content/bin/DesktopGL/Spritesheet.xnb","TextureProcessor","Texture2DContent",6879,451669,0.3927572

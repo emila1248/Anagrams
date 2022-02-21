@@ -16,10 +16,10 @@ namespace Anagrams.Graphics
         {
             X = x;
             Y = y;
-            Position = new int[] {x, y};
+            Position = new int[] { x, y };
             Width = width;
             Height = height;
-            Size = new int[] {width, height};
+            Size = new int[] { width, height };
         }
 
         public void Draw(SpriteBatch spriteBatch, float xPos, float yPos)
