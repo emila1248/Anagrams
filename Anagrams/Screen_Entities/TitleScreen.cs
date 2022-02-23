@@ -1,6 +1,5 @@
 ﻿using Anagrams.Entities;
 using Anagrams.Graphics;
-using System.Threading;
 
 namespace Anagrams.Screen_Entities
 {

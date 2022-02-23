@@ -5,7 +5,7 @@ using Anagrams.Graphics;
 
 namespace Anagrams.Screen_Entities
 {
-    class WordChoiceScreen
+    public class WordChoiceScreen
     {
         // Text
         private static readonly Text PromptText = new Text(Anagrams.WindowWidth / 2 + 2, Anagrams.WindowHeight / 2 - 72, Anagrams.Inter_28pt, "What kind of word would you like?");

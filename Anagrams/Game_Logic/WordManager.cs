@@ -1,12 +1,10 @@
 ﻿using Anagrams.Data;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace Anagrams.Game_Logic
 {
-    class WordManager
+    public class WordManager
     {
         public static string[] GetStartingWords()
         {
