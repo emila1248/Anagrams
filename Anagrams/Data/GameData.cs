@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Anagrams.Game_Logic;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Anagrams.Game_Logic
+namespace Anagrams.Data
 {
     class GameData
     {

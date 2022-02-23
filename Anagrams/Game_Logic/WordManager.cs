@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Anagrams.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -9,7 +10,7 @@ namespace Anagrams.Game_Logic
     {
         public static string[] GetStartingWords()
         {
-            return File.ReadAllLines(@".\Game_Logic\RandomWords.txt");
+            return File.ReadAllLines(@".\Data\RandomWords.txt");
         }
 
         public static string GetRandomStartingWord()

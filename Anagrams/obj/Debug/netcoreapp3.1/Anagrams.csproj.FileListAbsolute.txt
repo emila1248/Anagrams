@@ -27,4 +27,4 @@ C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Cont
 C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Content\Inter_28pt.xnb
 C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Content\Inter_76pt.xnb
 C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Content\Spritesheet.xnb
-C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Game_Logic\RandomWords.txt
+C:\Users\emila\Downloads\Projects\Anagrams\Anagrams\bin\Debug\netcoreapp3.1\Data\RandomWords.txt
